@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-
+/* var roots */
 :root {
     --white:#fff;
     --mint: #9fddd4;
@@ -170,7 +170,7 @@ main {
     padding: 0 0 20px 0;
     margin: 0.5em;
     background-size: 150%;
-    font-size: 0.9em;
+    font-size: 15px;
     background-blend-mode: soft-light;
     transition: all 0.5s;
     text-decoration: none;
@@ -231,13 +231,13 @@ main {
     text-decoration: none;
     padding: 5px;
     background-image: linear-gradient(270deg,var(--ice) 0%, var(--ice) 100%);
-    font-size: 1.3rem;
+    font-size: 20px;
     font-style: normal;
     background-repeat: no-repeat;
-    background-size: 100% 0.2em;
+    background-size: 100% 5px;
     background-position: bottom;
     display: inline-block;
-    margin: 0 0.2rem 0.1rem;
+    margin: 0 3px 2px;
     transition: all 0.25s ease-in;
 
 }
@@ -276,7 +276,7 @@ main {
     }
 
     .Pichu h2, .Pichu div {
-        flex: 0 0 100%
+        flex: 0  100%
     }
 
 .Pichu h2 {
@@ -290,7 +290,9 @@ main {
 
 }
 
-@media screen and (max-width: 768px) {
+
+/* screen adjusts if the the screen is less than 760px */
+@media screen and (max-width: 760px) {
     .Ditto-item, .Ditto-item:first-child {
         flex-basis: 100%;
     }
