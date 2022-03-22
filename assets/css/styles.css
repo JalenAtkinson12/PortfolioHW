@@ -127,7 +127,9 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 35px;
+    margin: 35px 0;
+    padding: 10px 0;
+    align-items: stretch;
 
 }
 
@@ -135,9 +137,9 @@ main {
 .Pichu  h2 {
     flex: 0 0 20%;
     text-align: right;
-    border-right: 5px solid var(--ice);
+    border-right: 4px solid var(--ice);
     font-size: 400%;
-    padding-right: 20px;
+    padding-right: 15px;
     line-height: 1.1;
 }
 
@@ -161,8 +163,9 @@ main {
 /*   parent of the h3 and span tags */
 .Ditto-item {
     display: flex;
-    border: 8px solid var(--mint);
+    border: 5px solid var(--mint);
     background-color:var(--ice) ;
+    color: var(--shadow);
     max-height: 150px;
     min-height: 150px;
     align-items: flex-end;
@@ -170,7 +173,7 @@ main {
     padding: 0 0 20px 0;
     margin: 0.5em;
     background-size: 150%;
-    font-size: 15px;
+    font-size: 0.9em;
     background-blend-mode: soft-light;
     transition: all 0.5s;
     text-decoration: none;
@@ -187,7 +190,7 @@ main {
 }
 
 .Ditto-item h3 {
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 .Ditto-item:hover{
@@ -231,13 +234,13 @@ main {
     text-decoration: none;
     padding: 5px;
     background-image: linear-gradient(270deg,var(--ice) 0%, var(--ice) 100%);
-    font-size: 20px;
+    font-size: 1.3rem;
     font-style: normal;
     background-repeat: no-repeat;
-    background-size: 100% 5px;
+    background-size: 100% 0.2em;
     background-position: bottom;
     display: inline-block;
-    margin: 0 3px 2px;
+    margin: 0 0.2rem 0.1rem;
     transition: all 0.25s ease-in;
 
 }
@@ -276,23 +279,23 @@ main {
     }
 
     .Pichu h2, .Pichu div {
-        flex: 0  100%
+        flex: 0 0 100%
     }
 
 .Pichu h2 {
     border-right: none;
-    border-bottom: 5px solid var(--ice);
+    border-bottom: 4px solid var(--ice);
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align:left;
-    font-size: 8vw;
+    font-size: 7vw;
 }
 
 }
 
 
 /* screen adjusts if the the screen is less than 760px */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .Ditto-item, .Ditto-item:first-child {
         flex-basis: 100%;
     }
