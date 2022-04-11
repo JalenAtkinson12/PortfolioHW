@@ -315,3 +315,14 @@ main {
     }
 
 }
+
+
+.dropdown_menu{
+    display:block;
+    position:absolute;
+    top: 10%;
+}
+
+.dropdown_menu ul {
+    display: block;
+}
