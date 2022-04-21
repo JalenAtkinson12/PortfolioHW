@@ -199,16 +199,16 @@ main {
  
 /* class names for the images that go along with the portfolio boxes */
 .charizard {
-    background-image: url("../images/mementos\ circles.jpg");
+    background-image: url("../images/eventplan.png");
 }
 
 .pikachu {
-    background-image: url("../images/portal.jpg");
+    background-image: url("../images/weather\ screenshot.png");
 
 }
 
 .onyx {
-    background-image: url("../images/programming.jpg");
+    background-image: url("../images/passwordpic.png");
 }
 
 .lucario {
